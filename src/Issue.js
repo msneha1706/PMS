@@ -10,7 +10,7 @@ function Issue() {
   const navigate = useNavigate()
 
   return (
-    <div style={{marginLeft:"225px",backgroundColor:"white"}}>
+    <div >
 
 <div className="container" style={{backgroundColor:"white"}}>
   <p className="container-title" id="container" style={{backgroundColor:"white"}}>All Project Assigned<br/>Till Today</p>

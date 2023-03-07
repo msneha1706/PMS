@@ -1,5 +1,12 @@
 .main_container{
+    justify-content: space-between;
     display: flex;
-    width: 100vw;    
+    width: 100%;    
 }
+.nav_container{
+    width: 20%;
+}
+.side_container{
 
+    width: 80%;
+}

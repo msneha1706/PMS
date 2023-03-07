@@ -3,7 +3,6 @@ body {
   }
   
   .container {
-    width: 1000px !important;
     padding: 0 !important;
     margin-right: auto;
     margin-left: auto;
@@ -13,22 +12,6 @@ body {
       color: #10558d;
   }
 
-  @media screen and (min-width: 992px) and (max-width: 1439px) {
-    .container {
-      max-width: 1279px !important;
-      padding: 0 !important;
-      margin: 0 80px !important;
-      width: auto !important;
-    }
-  }
-  @media screen and (max-width: 991px) {
-    .container {
-      max-width: 959px !important;
-      margin: 0 16px !important;
-      padding: 0 !important;
-      width: auto !important;
-    }
-  }
   
   .gradient-cards {
     display: grid;

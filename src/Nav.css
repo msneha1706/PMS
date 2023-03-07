@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body{
-    background: #f5f6fa;
-}
-
 .wrapper .sidebar{
+    z-index: 100;
+    width: 300px;
+    padding-left: 40px !important;
+    padding-top: 40px !important;
+    position: fixed;
+    min-height: 100vh;
     background: rgb(5, 68, 104);
     top: 0;
     left: 0;
@@ -47,6 +40,7 @@ body{
 }
 
 .wrapper .sidebar ul li a{
+    text-decoration: none;
     display: block;
     padding: 13px 30px;
     border-bottom: 1px solid #10558d;
@@ -54,7 +48,9 @@ body{
     font-size: 16px;
     position: relative;
 }
-
+.wrapper .sidebar ul li{
+    list-style: none;
+}
 .wrapper .sidebar ul li a .icon{
     color: #dee4ec;
     width: 30px;
