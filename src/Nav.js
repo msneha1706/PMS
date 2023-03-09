@@ -1,7 +1,10 @@
 import React from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
 import "./Nav.css"
 
 function Nav() {
+    const {pathname} = useLocation()
+    console.log(pathname)
   return (
     <div>
 
@@ -17,16 +20,16 @@ function Nav() {
 
         <ul>
                 <li>
-                    <a href="#" class="active">
+                    <NavLink to="/home/issue" className={pathname === '/home/issue'?"active":""} >
                         <span class="icon"><i class="fas fa-home"></i></span>
                         <span class="item">Home</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-desktop"></i></span>
+                <NavLink to="/home/detail"  className={pathname === '/home/detail'?"active":""}>
+                        <span class="icon"><i class="fas fa-home"></i></span>
                         <span class="item">My Dashboard</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
                     <a href="#">

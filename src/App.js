@@ -13,13 +13,16 @@ function App() {
       {/* <Login/> */}
       <BrowserRouter>
         <Routes>
-        <Route path="/" exact element={<Login />} />
-        <Route path="/reg" exact element={<Registration />} />
-        <Route path="/home" exact element={<Home />} />
-        <Route path="/detail" exact element={<Detail />} />
+          <Route path="/" exact element={<Login />} />
+          <Route path="/reg" exact element={<Registration />} />
+          <Route path="/home" exact element={<Home />} >
+            <Route path='issue' element={<Issue />} />
+            <Route path='detail' element={<Detail />} />
+          </Route>
+     
         </Routes>
       </BrowserRouter>
-      
+
       {/* <Login/> */}
       {/* <Registration/> */}
       {/* <Nav/> */}
