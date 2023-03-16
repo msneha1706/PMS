@@ -2,10 +2,9 @@
 
 .wrapper .sidebar{
     z-index: 100;
-    width: 300px;
-    padding-left: 40px !important;
+    width: 220px;
+    padding-left: 10px !important;
     padding-top: 40px !important;
-    position: fixed;
     min-height: 100vh;
     background: rgb(5, 68, 104);
     top: 0;

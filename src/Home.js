@@ -3,6 +3,7 @@ import Footer from './Footer'
 import Issue from './Issue'
 import Nav from './Nav'
 import "./Home.css"
+import { Outlet, Route, Routes } from 'react-router-dom'
 function Home() {
   return (
     <div className='main_container'>
@@ -13,6 +14,7 @@ function Home() {
       <div className='side_container'>
         <Issue />
         <Footer />
+        <Outlet/>
       </div>
     </div>
   )

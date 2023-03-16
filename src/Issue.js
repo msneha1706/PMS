@@ -22,7 +22,7 @@ function Issue() {
         <p className="card-title">Student Managment Syatem</p>
         <p className="card-description">Have to design responsive Header and Footer with design provide by UI Team</p>
         {done ? (<button >InProgress</button> ) :(<button>Complete</button>)}
-        <button onClick={()=>navigate("/detail")}>Detail</button>
+        <button onClick={()=>navigate("detail")}>Detail</button>
       </div>
     </div>
 
