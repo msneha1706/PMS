@@ -1,13 +1,9 @@
-.main_container{
-    justify-content: space-between;
-    display: flex;
-    width: 100vw;    
+.main_container{  display: flex;
+    width: 100%;    
 }
-.nav_container{
-    width: 20%;
-}
+
 .side_container{
-    max-height: 100vh;
-    overflow-y: scroll;
     width: 100%;
+    max-height: 100vh;
+   overflow-y: scroll;
 }

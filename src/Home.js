@@ -10,11 +10,9 @@ function Home() {
       <div className='nav_container'>
         <Nav />
       </div>
-
       <div className='side_container'>
-        <Issue />
-        <Footer />
         <Outlet/>
+          <Footer/>
       </div>
     </div>
   )
